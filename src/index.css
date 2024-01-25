@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ota:hover .red{
+ background: red;
+}
+.x1{
+    position: absolute;
+    transform: rotate(-45deg);
+}
+.x2{
+    position: absolute;
+    transform: rotate(45deg);
+}
+.x3{
+ opacity: 0;
+}
+
+.taqqoslash:hover h3{
+    color: red;
+}
+.taqqoslash:hover svg{
+    fill: red;
+}
+.h{
+    opacity: 1;
+}
